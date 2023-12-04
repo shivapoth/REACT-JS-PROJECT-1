@@ -4,7 +4,7 @@ import Demo from './components/Demo';
 function App() {
   return (
     <div className="App">
-      <Demo/>
+     
     </div>
   );
 }
