@@ -1,0 +1,157 @@
+
+.footer-container {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(35,129,211);
+    font-size: 15px;
+    width: 100%;
+    height: 40rem;
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    grid-template-columns: 2fr 2fr 2fr 2fr 3fr;
+}
+
+
+
+.what-we-do h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: aliceblue; /* Change color if needed */
+}
+
+.what-we-do ul li {
+    margin-bottom: 8px; /* Adjust spacing between list items */
+}
+
+.what-we-do ul li a {
+    text-decoration: none;
+    color:aliceblue; /* Change link color */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+   
+}
+
+.what-we-do ul li a:hover {
+    color: #000; /* Change link color on hover */
+    /* Add any other hover effects if desired */
+}
+
+.item h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: aliceblue; /* Change color if needed */
+}
+
+.item ul li {
+    margin-bottom: 8px; /* Adjust spacing between list items */
+}
+
+.item ul li a {
+    text-decoration: none;
+    color:aliceblue; /* Change link color */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+   
+}
+
+.item ul li a:hover {
+    color: #000; /* Change link color on hover */
+    /* Add any other hover effects if desired */
+}
+
+.item1 h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: aliceblue; /* Change color if needed */
+}
+
+.item1 ul li {
+    margin-bottom: 8px; /* Adjust spacing between list items */
+}
+
+.item1 ul li a {
+    text-decoration: none;
+    color:aliceblue; /* Change link color */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+   
+}
+
+.item1 ul li a:hover {
+    color: #000; /* Change link color on hover */
+    /* Add any other hover effects if desired */
+}
+
+.item2 h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: aliceblue; /* Change color if needed */
+}
+.item2 ul li {
+    margin-bottom: 8px; /* Adjust spacing between list items */
+}
+.item2 ul li a {
+    text-decoration: none;
+    color:aliceblue; /* Change link color */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.item2 ul li a:hover {
+    color: #000; /* Change link color on hover */
+    /* Add any other hover effects if desired */
+}
+
+/* Example styles for the donation section */
+.donate-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .donate-section h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .donate-section button {
+    margin: 5px;
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: rgb(255,255,255);
+    color: rgb(0,135,81);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-section button:hover {
+    background-color: red;
+    
+  }
+  
+  .donate-section input[type='text'] {
+    margin: 10px ;
+    padding: 8px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(39,101,151);
+  }
+  
+  .donate-section button[type='submit'] {
+ 
+    margin: 10px ;
+    width: 230px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgb(255,255,255);
+  }
+  .item3{
+    display: flex;
+    grid-template-columns: 4fr 4fr 4fr  ;
+  }
+  .item3 h6{
+    margin-right: 20px; 
+  }
+.item3 h6 a{
+    text-decoration: none;
+    color: aliceblue;
+}
