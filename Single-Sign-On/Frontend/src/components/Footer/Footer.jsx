@@ -1,6 +1,5 @@
 
 import './footer.css';
-// import { Footer } from 'flowbite-react';
 import React, { useState } from 'react';
 
 
