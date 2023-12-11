@@ -7,12 +7,13 @@ import FooterPage from './components/Home/Footer';
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/' element={<Navbar />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/home' element={<Navbar />} />
         </Routes>
-      </Router> */}
+      </Router> 
     <FooterPage/>
     </div>
   );
