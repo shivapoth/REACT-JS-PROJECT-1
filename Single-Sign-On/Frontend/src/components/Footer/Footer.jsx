@@ -1,5 +1,8 @@
 
-import '../Home/footer.css';
+
+
+import './footer.css';
+
 import React, { useState } from 'react';
 
 
