@@ -1,6 +1,5 @@
 
 import '../Home/footer.css';
-import { Footer } from 'flowbite-react';
 import React, { useState } from 'react';
 
 
@@ -23,7 +22,7 @@ const FooterPage = () => {
     };
 
     return (
-        <Footer container>
+        <footer container>
             <div className="footer-container">
                 <div className="what-we-do">
                     <h4>What We Do</h4>
@@ -174,7 +173,7 @@ const FooterPage = () => {
                     <h6><a href="/faq">Customer Service Policy</a></h6>
                 </div>
             </div>
-        </Footer>
+        </footer>
     );
 }
 export default FooterPage;
