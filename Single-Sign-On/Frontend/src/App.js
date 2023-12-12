@@ -4,18 +4,20 @@ import Login from './components/Login/Login';
 import Register from './components/Registration/Register';
 import FooterPage from './components/Footer/Footer';
 import Navbar from './components/NavBar/Navbar';
+import OurCause from './components/Home/OurCause/OurCause';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <OurCause/>
+      {/* <Router>
         <Routes>
           <Route path='/' element={<Navbar/>} />
           <Route path='/register' element={<Register />} />
           <Route path='/home' element={<Navbar />} />
         </Routes>
       </Router> 
-    <FooterPage/>
+    <FooterPage/> */}
     </div>
   );
 }
