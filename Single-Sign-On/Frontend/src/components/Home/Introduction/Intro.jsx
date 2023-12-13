@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Image, NavLink, Row } from 'react-bootstrap';
 import './intro.css';
 
@@ -85,6 +85,10 @@ const Intro = () => {
       </Card>
     );
   };
+
+  useEffect(() => {
+    handleChristmasAppeal(); // Set Christmas Appeal content by default on component load
+  }, []); 
 
   const navigationLinks = (
     <>
