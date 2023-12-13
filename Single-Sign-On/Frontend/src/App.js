@@ -8,16 +8,16 @@ import OurCause from './components/Home/OurCause/OurCause';
 
 function App() {
   return (
-    <div className="App">
-      <OurCause/>
-      {/* <Router>
+    <div className="App">     
+      <Router>
         <Routes>
           <Route path='/' element={<Navbar/>} />
           <Route path='/register' element={<Register />} />
           <Route path='/home' element={<Navbar />} />
         </Routes>
       </Router> 
-    <FooterPage/> */}
+      <OurCause/>
+    <FooterPage/>
     </div>
   );
 }
