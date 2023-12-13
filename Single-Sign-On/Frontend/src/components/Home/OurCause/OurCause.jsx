@@ -2,10 +2,10 @@ import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import "./ourcause.css";
 import sliderImage from "../../assests/images/sliderimage.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import $ from "jquery";
-import "slick-carousel";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import $ from "jquery";
+// import "slick-carousel";
 
 const OurCause = () => {
   return (
