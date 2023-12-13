@@ -4,6 +4,7 @@ import './intro.css';
 
 const Intro = () => {
   const [content, setContent] = useState(null);
+  const [activeButton, setActiveButton] = useState('Christmas Appeal');
 
   const handleChristmasAppeal = () => {
     const buttonStyle = {
@@ -35,6 +36,7 @@ const Intro = () => {
 
 
     );
+    setActiveButton('Christmas Appeal');
   };
   const handlePetition = () => {
     const buttonStyle = {
@@ -62,6 +64,7 @@ const Intro = () => {
         </Card.Body>
       </Card>
     );
+    setActiveButton('Petition');
   };
 
   const handleGethelp = () => {
@@ -84,6 +87,7 @@ const Intro = () => {
         </Card.Body>
       </Card>
     );
+    setActiveButton('Get help');
   };
 
   useEffect(() => {
@@ -92,17 +96,17 @@ const Intro = () => {
 
   const navigationLinks = (
     <>
-      <Col style={{ border: '2px solid', backgroundColor: 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
+      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Christmas Appeal' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
         <NavLink to="#" onClick={handleChristmasAppeal}>
           Christmas Appeal
         </NavLink>
       </Col>
-      <Col style={{ border: '2px solid', backgroundColor: 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
+      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Petition' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
         <NavLink to="#" onClick={handlePetition} >
           Petition
         </NavLink>
       </Col>
-      <Col style={{ border: '2px solid', backgroundColor: 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
+      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Get help' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
         <NavLink to="#" onClick={handleGethelp} >
           Get help
         </NavLink>
