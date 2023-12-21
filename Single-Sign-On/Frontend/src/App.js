@@ -4,6 +4,7 @@ import FooterPage from './components/Footer/Footer';
 import Intro from './components/Home/Introduction/Intro';
 import Navbar from './components/NavBar/Navbar';
 import OurCause from './components/Home/OurCause/OurCause';
+import SearchMap from './components/Home/Map/SearchMap';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </Router> 
       <Intro/>
       <OurCause/>
+      <SearchMap/>
     <FooterPage/>
     </div>
   );
