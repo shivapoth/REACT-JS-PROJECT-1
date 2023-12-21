@@ -10,38 +10,35 @@ const Intro = () => {
     const buttonStyle = {
       backgroundColor: 'rgb(255, 84, 54)',
       borderColor: 'rgb(255, 84, 54)',
+      height:'50px',
     };
+    
     setContent(
       <Card>
         <Card.Body style={{ backgroundColor: 'rgb(225,238,219)', }}>
           <Row className="align-items-center ">
             <Col>
-
               <Card.Title style={{ color: 'rgb(0,135,81)', fontSize: 70, marginBottom: '20px' }}>1 MILLION PARCELS</Card.Title>
               <Card.Text style={{ fontWeight: 'bold', fontSize: 30, marginBottom: '20px' }}>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
-
               <Button variant='primary' style={buttonStyle}>Donate now</Button>
-
             </Col>
             <Col xs={6} md={3}>
-
               <Image src={require('../../assests/images/intro2.png')} />
-
             </Col>
           </Row>
         </Card.Body>
       </Card>
-
-
     );
     setActiveButton('Christmas Appeal');
   };
+  
   const handlePetition = () => {
     const buttonStyle = {
       backgroundColor: 'rgb(255, 84, 54)',
       borderColor: 'rgb(255, 84, 54)',
+      height:'50px',
     };
     setContent(
       <Card>
@@ -49,7 +46,6 @@ const Intro = () => {
           <Row className="align-items-center ">
             <Col >
               <Card.Title style={{ color: 'rgb(0,135,81)', fontSize: 70 }}>SIGN OUR PETITION</Card.Title>
-
               <Card.Text style={{ fontWeight: 'bold', fontSize: 30 }}>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
@@ -59,18 +55,18 @@ const Intro = () => {
             <Col xs={6} md={3}>
               <Image src={require('../../assests/images/intro2.png')} />
             </Col>
-
           </Row>
         </Card.Body>
       </Card>
     );
     setActiveButton('Petition');
   };
-
+  
   const handleGethelp = () => {
     const buttonStyle = {
       backgroundColor: 'rgb(255, 84, 54)',
       borderColor: 'rgb(255, 84, 54)',
+      height:'50px',
     };
     setContent(
       <Card>
@@ -96,17 +92,17 @@ const Intro = () => {
 
   const navigationLinks = (
     <>
-      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Christmas Appeal' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
+      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Christmas Appeal' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center', height: '50px'}}>
         <NavLink to="#" onClick={handleChristmasAppeal}>
           Christmas Appeal
         </NavLink>
       </Col>
-      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Petition' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
+      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Petition' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center', height: '50px' }}>
         <NavLink to="#" onClick={handlePetition} >
           Petition
         </NavLink>
       </Col>
-      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Get help' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center' }}>
+      <Col style={{ border: '2px solid', backgroundColor: activeButton === 'Get help' ? 'rgb(0,135,81)' : 'rgb(93,166,84)', color: 'white', fontSize: '20px', textAlign: 'center', height: '50px' }}>
         <NavLink to="#" onClick={handleGethelp} >
           Get help
         </NavLink>
