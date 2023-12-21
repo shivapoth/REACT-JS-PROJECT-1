@@ -40,7 +40,7 @@ const SearchMap = () => {
         <div ref={mapRef} style={{ width: '100%', height: '100px' }}></div>
         <div>hii</div>
 <div>hiiii</div>
-
+<div>sai</div>
         <div>hii</div>
       </Card>
     </Container>
